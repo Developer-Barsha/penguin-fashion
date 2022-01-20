@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/model.png" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4c86bf831a.js" crossorigin="anonymous"></script>
+</head>
+<body style="font-family: 'Nunito', sans-serif;">
+    <header style="background-color: #FFFBF0;" class="fixed-top mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img class="align-center img-fluid" src="./images/logo.png" alt="" width="250.11px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#woman-sec">Woman Jacket</a></li>
+                      <li><a class="dropdown-item" href="#man-sec">Man Jacket</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+
+      <section id="intro" class="pt-5 mt-5 pb-5" style="background-color: #FFFBF0;">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+              <h1 class="fs-1 text-warning fw-bolder">BE THE PENGUINS</h1>
+              <h1 class="text-dark fw-bolder">OF WINTER</h1>
+              <p>
+                "What you wear is how you present yourself to the world, especially today, when human contacts are so quick. Fashion is instant language."
+              </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 d-flex  justify-content-end">
+              <img class="img-fluid" src="images/model.png" alt="">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--------------- first section done ------------->
+
+      <section id="products">
+        <!-- <section id="woman-sec" class="pt-5 pb-5">
+          <h1 class="ms-5 fw-bolder">Woman Jacket</h1>
+          <div class="container">
+            <div class="row mt-5 d-flex justify-content-between">
+              <div class="col-lg-4 shadow p-3 rounded">
+                <img class="img-fluid" src="images/jacket-1.png" alt="">
+                <div>
+                  <h5 class="fw-bold">Yellow Coat Jacket </h5>
+                  <p class="fw-100">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="info d-flex justify-content-between">
+                    <h3 class="fw-bold">
+                      $234
+                    </h3>
+                    <a href="#" class="w-50 btn shadow d-flex align-items-center justify-content-evenly btn-outline-success" style="
+                    background-image: linear-gradient(rgb(122, 172, 21), rgb(67, 207, 67));"><i class="fas fa-shopping-cart"></i>BUY </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section> -->
+
+        <div id="woman-sec">
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/jacket-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Yellow Coat Jacket</h5>
+                    <p class="card-text"></p>
+                    <div class="info d-flex justify-content-between">
+                      <h3 class="fw-bold">
+                        $234
+                      </h3>
+                      <a href="#" class="w-50 btn shadow d-flex align-items-center justify-content-evenly btn-outline-success" style="
+                      background-image: linear-gradient(rgb(122, 172, 21), rgb(67, 207, 67));"><i class="fas fa-shopping-cart"></i>BUY NOW</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
